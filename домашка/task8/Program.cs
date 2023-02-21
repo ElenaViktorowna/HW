@@ -5,9 +5,9 @@ Console.WriteLine("Введите пятизначное число: ");
 int number = int.Parse(Console.ReadLine()!);
 if(number/10000 == number%10 & number%10000/1000 == number%100/10)
 {
-    Console.Write("Да");
+    Console.Write("Полиндром");
 }
 else
 {
-    Console.Write("Нет");
+    Console.Write("Не полиндром");
 }
