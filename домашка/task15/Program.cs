@@ -6,7 +6,7 @@
 Console.WriteLine($"Введите длину массива: ");
 int ElementNumbers = Convert.ToInt32(Console.ReadLine()); 
 int randomNumber =  RandomNumbers(ElementNumbers, 1, 100);
-Console.WriteLine($"  Сумма элементов, стоящих на нечётных позициях: {randomNumber}");
+Console.WriteLine($" Сумма элементов, стоящих на нечётных позициях: {randomNumber}");
 
 
 
